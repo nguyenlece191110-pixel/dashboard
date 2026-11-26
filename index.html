@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lê Nguyên | Business Analyst (BA) &amp; Software Engineer</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  
+  <!-- SEO & Open Graph Meta Tags (Zalo, Facebook, LinkedIn, Messenger Preview) -->
+  <meta name="description" content="Portfolio năng lực của Lê Nguyên - Sinh viên Kỹ thuật phần mềm ĐH FPT Cần Thơ định hướng Business Analyst (BA). Khảo sát yêu cầu, mô hình hóa BPMN, đặc tả SRS/BRD, SQL & Wireframing." />
+  <meta name="keywords" content="Lê Nguyên, Business Analyst, BA Intern, Software Engineer, FPT University, BPMN, SRS, BRD, SQL, Figma" />
+  <meta name="author" content="Lê Nguyên" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://localhost:3000" />
+  <meta property="og:title" content="Lê Nguyên | Business Analyst (BA) Intern &amp; Software Engineer" />
+  <meta property="og:description" content="Portfolio năng lực của Lê Nguyên - Sinh viên Kỹ thuật phần mềm ĐH FPT Cần Thơ định hướng Business Analyst (BA). Khảo sát yêu cầu, mô hình hóa BPMN, đặc tả SRS/BRD." />
+  <meta property="og:image" content="images/avatar.jpg" />
+  <meta property="og:locale" content="vi_VN" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Lê Nguyên | Business Analyst (BA) Intern" />
+  <meta name="twitter:description" content="Portfolio năng lực của Lê Nguyên - Sinh viên Kỹ thuật phần mềm ĐH FPT Cần Thơ định hướng Business Analyst." />
+  <meta name="twitter:image" content="images/avatar.jpg" />
+  
+  <!-- Google Fonts: Space Grotesk, Plus Jakarta Sans, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Background Technical Blueprint Grid -->
+  <div class="technical-grid-bg"></div>
+
+  <div class="site-wrapper">
+
+    <!-- Top Navbar -->
+    <header class="site-header">
+      <div class="header-inner">
+        
+        <a href="#hero" class="site-logo">
+          <span class="logo-bracket">&lt;</span><span class="logo-bold">LN</span><span class="logo-slash">/</span><span class="logo-gray">BA</span><span class="logo-bracket">&gt;</span>
+        </a>
+
+        <!-- Nav Menu with [ ACTIVE ] brackets -->
+        <nav class="site-nav" id="site-nav">
+          <a href="#hero" class="nav-link active" data-nav="hero">
+            <i class="fa-solid fa-house"></i>
+            <span>HOME</span>
+          </a>
+          <a href="#about" class="nav-link" data-nav="about">
+            <i class="fa-regular fa-user"></i>
+            <span>ABOUT</span>
+          </a>
+          <a href="#projects" class="nav-link" data-nav="projects">
+            <i class="fa-regular fa-folder-open"></i>
+            <span>PROJECTS</span>
+          </a>
+          <a href="#services" class="nav-link" data-nav="services">
+            <i class="fa-solid fa-diagram-project"></i>
+            <span>SERVICES</span>
+          </a>
+          <a href="#skills" class="nav-link" data-nav="skills">
+            <i class="fa-solid fa-chart-pie"></i>
+            <span>SKILLS</span>
+          </a>
+        </nav>
+
+        <!-- Right Controls: Theme Toggle & Sound -->
+        <div class="header-controls">
+          <!-- SFX Sound Toggle -->
+          <button class="sound-toggle-btn" id="sound-toggle" aria-label="Toggle Sound Effects" title="Bật / Tắt âm thanh công nghệ (SFX)">
+            <i class="fa-solid fa-volume-high icon-sound-on"></i>
+            <i class="fa-solid fa-volume-xmark icon-sound-off"></i>
+            <span class="sound-text">SFX</span>
+          </button>
+
+          <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Dark/Light Mode" title="Chuyển chế độ Sáng / Tối">
+            <i class="fa-solid fa-sun icon-sun"></i>
+            <span class="toggle-knob"></span>
+            <i class="fa-solid fa-moon icon-moon"></i>
+          </button>
+          <button class="menu-toggle-mobile" id="menu-toggle-mobile" aria-label="Menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+
+      </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section">
+      <div class="hero-grid">
+        
+        <!-- Hero Left Column -->
+        <div class="hero-left reveal-on-scroll">
+          <div class="hero-greeting-tag">
+            <span class="pulse-dot-green"></span>
+            <span>HI, I'M • BUSINESS ANALYST INTERN</span>
+          </div>
+          
+          <!-- Exact Figma Selection Boxes for Name -->
+          <div class="figma-title-group">
+            <div class="figma-box-word">
+              <span class="cad-handle tl"></span><span class="cad-handle tr"></span>
+              <span class="cad-handle bl"></span><span class="cad-handle br"></span>
+              <span>ANALYST</span>
+            </div>
+            <div class="figma-box-word">
+              <span class="cad-handle tl"></span><span class="cad-handle tr"></span>
+              <span class="cad-handle bl"></span><span class="cad-handle br"></span>
+              <span>BY</span>
+            </div>
+            <div class="figma-box-word highlight-blue">
+              <span class="cad-handle tl"></span><span class="cad-handle tr"></span>
+              <span class="cad-handle bl"></span><span class="cad-handle br"></span>
+              <span>LÊ NGUYÊN</span>
+            </div>
+          </div>
+
+          <div class="hero-subtitle-group">
+            <div class="sub-line-1">BUSINESS ANALYST</div>
+            <div class="sub-line-2">
+              <span>&amp; SOFTWARE</span>
+              <div class="figma-box-black">
+                <span class="cad-handle tl"></span><span class="cad-handle tr"></span>
+                <span class="cad-handle bl"></span><span class="cad-handle br"></span>
+                <span>ENGINEER</span>
+              </div>
+            </div>
+          </div>
+
+          <p class="hero-description">
+            Sinh viên Kỹ thuật phần mềm tại <strong>Đại học FPT Cần Thơ</strong> định hướng chuyên sâu về <strong>Business Analyst (BA)</strong>. 
+            Kết hợp tư duy logic công nghệ và năng lực phân tích quy trình nghiệp vụ để khảo sát, mô hình hóa yêu cầu (BPMN, User Stories, SRS/BRD) và làm cầu nối gắn kết chặt chẽ giữa Khách hàng &amp; Đội ngũ Kỹ thuật.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="CV_LeNguyen_BusinessAnalyst.pdf" download="CV_LeNguyen_BusinessAnalyst.pdf" class="btn-hero-download" title="Tải trực tiếp CV bản PDF của Lê Nguyên">
+              <i class="fa-solid fa-file-arrow-down"></i>
+              <span>Tải CV (PDF)</span>
+            </a>
+            <a href="#projects" class="btn-hero-primary">
+              <span>View Case Studies</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <button type="button" class="btn-hero-secondary trigger-email-modal">
+              <i class="fa-regular fa-envelope"></i>
+              <span>Liên Hệ Qua Gmail</span>
+            </button>
+            <button type="button" class="btn-hero-secondary trigger-phone-modal">
+              <i class="fa-solid fa-phone"></i>
+              <span>0941-041-650</span>
+            </button>
+          </div>
+
+          <!-- Bento Stats Row -->
+          <div class="bento-stats-row">
+            <div class="stat-bento-card tilt-card">
+              <span class="cad-handle tl"></span><span class="cad-handle tr"></span>
+              <span class="cad-handle bl"></span><span class="cad-handle br"></span>
+              <div class="stat-top">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span class="stat-val">FPTU</span>
+              </div>
+              <div class="stat-lbl">KHÓA 19 • 2023 - 2027</div>
+            </div>
+
+            <div class="stat-bento-card tilt-card">
+              <span class="cad-handle tl"></span><span class="cad-handle tr"></span>
+              <span class="cad-handle bl"></span><span class="cad-handle br"></span>
+              <div class="stat-top">
+                <i class="fa-solid fa-briefcase"></i>
+                <span class="stat-val">TEKNIX</span>
+              </div>
+              <div class="stat-lbl">OJT TESTER INTERN • 2026</div>
+            </div>
+
+            <div class="stat-bento-card tilt-card">
+              <span class="cad-handle tl"></span><span class="cad-handle tr"></span>
+              <span class="cad-handle bl"></span><span class="cad-handle br"></span>
+              <div class="stat-top">
+                <i class="fa-solid fa-database"></i>
+                <span class="stat-val">SQL</span>
+              </div>
+              <div class="stat-lbl">DATA &amp; PROCESS MODELING</div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Hero Right Column: Polaroid Avatar Card with Corner Crop Marks & 3D Tilt -->
+        <div class="hero-right reveal-on-scroll">
+          <div class="polaroid-card tilt-card" id="hero-polaroid">
+            <span class="corner-bracket top-left"></span>
+            <span class="corner-bracket top-right"></span>
+            <span class="corner-bracket bottom-left"></span>
+            <span class="corner-bracket bottom-right"></span>
+
+            <div class="polaroid-img-frame">
+              <img src="images/avatar.jpg" alt="Lê Nguyên - Business Analyst" class="polaroid-img" />
+              <div class="photo-scanline-grid"></div>
+            </div>
+
+            <div class="polaroid-footer">
+              <div class="connect-label">LET'S CONNECT:</div>
+              <div class="connect-buttons-row">
+                <!-- Download CV -->
+                <a href="CV_LeNguyen_BusinessAnalyst.pdf" download="CV_LeNguyen_BusinessAnalyst.pdf" class="connect-btn" title="Tải CV PDF">
+                  <i class="fa-solid fa-file-pdf" style="color: #ef4444;"></i>
+                  <span>Tải CV</span>
+                </a>
+                <!-- Trigger Interactive Gmail Modal -->
+                <button type="button" class="connect-btn trigger-email-modal" title="Bấm để xem và gửi Gmail">
+                  <i class="fa-regular fa-envelope" style="color: #ea4335;"></i>
+                  <span>Gmail</span>
+                </button>
+                <!-- Trigger Interactive Phone Modal -->
+                <button type="button" class="connect-btn trigger-phone-modal" title="Bấm để xem số điện thoại">
+                  <i class="fa-solid fa-phone" style="color: #10b981;"></i>
+                  <span>0941.041.650</span>
+                </button>
+                <!-- LinkedIn -->
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="connect-btn" title="LinkedIn Profile">
+                  <i class="fa-brands fa-linkedin-in" style="color: #0a66c2;"></i>
+                  <span>LinkedIn</span>
+                </a>
+                <!-- GitHub -->
+                <a href="https://github.com/nguyenlece191110-pixel" target="_blank" rel="noopener noreferrer" class="connect-btn" title="GitHub">
+                  <i class="fa-brands fa-github"></i>
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TECH MARQUEE TICKER (BA FOCUSED) -->
+    <div class="marquee-ticker-wrapper">
+      <div class="marquee-content">
+        <span class="marquee-item"><i class="fa-solid fa-cube"></i> REQUIREMENT ELICITATION</span>
+        <span class="marquee-item"><i class="fa-solid fa-cube"></i> BPMN &amp; PROCESS MODELING</span>
+        <span class="marquee-item"><i class="fa-solid fa-cube"></i> USE CASE &amp; USER STORIES</span>
+        <span class="marquee-item"><i class="fa-solid fa-cube"></i> BRD &amp; SRS DOCUMENTATION</span>
+        <span class="marquee-item"><i class="fa-solid fa-cube"></i> FIGMA WIREFRAMING</span>
+        <span class="marquee-item"><i class="fa-solid fa-cube"></i> SQL DATA ANALYSIS</span>
+        <span class="marquee-item"><i class="fa-solid fa-cube"></i> AGILE / SCRUM &amp; JIRA</span>
+        <span class="marquee-item"><i class="fa-solid fa-cube"></i> UAT TEST CASES &amp; QA COOPERATION</span>
+        <!-- Duplicate for loop -->
+        <span class="marquee-item"><i class="fa-solid fa-cube"></i> REQUIREMENT ELICITATION</span>
+        <span class="marquee-item"><i class="fa-solid fa-cube"></i> BPMN &amp; PROCESS MODELING</span>
+        <span class="marquee-item"><i class="fa-solid fa-cube"></i> USE CASE &amp; USER STORIES</span>
+        <span class="marquee-item"><i class="fa-solid fa-cube"></i> BRD &amp; SRS DOCUMENTATION</span>
+        <span class="marquee-item"><i class="fa-solid fa-cube"></i> FIGMA WIREFRAMING</span>
+        <span class="marquee-item"><i class="fa-solid fa-cube"></i> SQL DATA ANALYSIS</span>
+        <span class="marquee-item"><i class="fa-solid fa-cube"></i> AGILE / SCRUM &amp; JIRA</span>
+        <span class="marquee-item"><i class="fa-solid fa-cube"></i> UAT TEST CASES &amp; QA COOPERATION</span>
+      </div>
+    </div>
+
+    <!-- ABOUT SECTION: EXACT ABOUT_ME.EXE RETRO WINDOW -->
+    <section id="about" class="about-section-wrapper reveal-on-scroll">
+      <div class="section-container">
+        
+        <div class="os-window-frame">
+          <!-- Window Title Bar with Traffic Lights -->
+          <div class="os-window-header">
+            <div class="mac-traffic-dots">
+              <span class="m-dot red" title="Close"></span>
+              <span class="m-dot yellow" title="Minimize"></span>
+              <span class="m-dot green" title="Maximize"></span>
+            </div>
+            <div class="os-window-title" id="os-window-title">
+              ABOUT_ME.EXE - BIO.MD
+            </div>
+            <div class="os-window-dummy-icons">
+              <i class="fa-solid fa-minus"></i>
+              <i class="fa-regular fa-square"></i>
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+          </div>
+
+          <!-- Path Bar -->
+          <div class="os-path-bar">
+            <span class="path-tag">Path:</span>
+            <span class="path-text" id="os-path-text">C:\portfolio\about_me\bio.md</span>
+          </div>
+
+          <!-- Window Main Container -->
+          <div class="os-window-grid">
+            
+            <!-- Left Directory Sidebar -->
+            <aside class="os-sidebar-dir">
+              <div class="dir-header">DIRECTORIES</div>
+              <div class="dir-folder-title">
+                <i class="fa-regular fa-folder-open"></i>
+                <span>src / docs</span>
+              </div>
+              <ul class="dir-file-list">
+                <li class="dir-file-item active" data-file="bio">
+                  <i class="fa-regular fa-file-code"></i>
+                  <span>bio.md</span>
+                </li>
+                <li class="dir-file-item" data-file="education">
+                  <i class="fa-regular fa-file-lines"></i>
+                  <span>education.md</span>
+                </li>
+                <li class="dir-file-item" data-file="experience">
+                  <i class="fa-solid fa-briefcase"></i>
+                  <span>experience.md</span>
+                </li>
+                <li class="dir-file-item" data-file="location">
+                  <i class="fa-solid fa-location-crosshairs"></i>
+                  <span>location.md</span>
+                </li>
+              </ul>
+            </aside>
+
+            <!-- Right Content Area -->
+            <div class="os-content-pane">
+              
+              <!-- TAB 1: BIO.MD -->
+              <div class="file-view-tab active" id="view-bio">
+                <div class="file-active-badge">// ACTIVE FILE: BIO.MD</div>
+                <h2 class="view-title">Hello, World.</h2>
+                <p class="view-paragraph">
+                  Tôi là <strong>Lê Nguyên</strong>, sinh viên ngành Kỹ thuật phần mềm tại <strong>Đại học FPT Cần Thơ</strong> với mục tiêu phát triển chuyên nghiệp trong lĩnh vực <strong>Business Analyst (BA)</strong>. 
+                  Với tư duy logic hệ thống tốt, nền tảng công nghệ vững vàng cùng sự nhạy bén về trải nghiệm người dùng, tôi mong muốn ứng tuyển vị trí <strong>Business Analyst Intern</strong> để đóng góp vào việc thu thập, làm rõ yêu cầu nghiệp vụ và tối ưu hóa giải pháp số cho doanh nghiệp.
+                </p>
+                <p class="view-paragraph">
+                  Lợi thế của tôi là khả năng làm cầu nối nhịp nhàng giữa khách hàng và các kỹ sư phần mềm: hiểu thấu nhu cầu nghiệp vụ, chuyển đổi thành tài liệu đặc tả (SRS/BRD), vẽ sơ đồ quy trình (BPMN), phác thảo Wireframe trên Figma và hỗ trợ UAT kiểm thử đảm bảo giải pháp được triển khai chính xác.
+                </p>
+
+                <div class="bio-meta-table">
+                  <div class="table-row">
+                    <span class="row-key">File type:</span>
+                    <span class="row-val">Markdown Document</span>
+                  </div>
+                  <div class="table-row">
+                    <span class="row-key">Target Role:</span>
+                    <span class="row-val">Business Analyst (BA) Intern</span>
+                  </div>
+                  <div class="table-row">
+                    <span class="row-key">Direct Email:</span>
+                    <span class="row-val">
+                      <a href="javascript:void(0)" class="trigger-email-modal link-highlight">
+                        nguyenle.ce191110@gmail.com <i class="fa-regular fa-envelope"></i>
+                      </a>
+                    </span>
+                  </div>
+                  <div class="table-row">
+                    <span class="row-key">Direct Phone:</span>
+                    <span class="row-val">
+                      <a href="javascript:void(0)" class="trigger-phone-modal link-highlight">
+                        0941-041-650 <i class="fa-solid fa-phone"></i>
+                      </a>
+                    </span>
+                  </div>
+                  <div class="table-row">
+                    <span class="row-key">Resume / CV:</span>
+                    <span class="row-val">
+                      <a href="CV_LeNguyen_BusinessAnalyst.pdf" download="CV_LeNguyen_BusinessAnalyst.pdf" class="link-download-cv">
+                        <i class="fa-solid fa-file-pdf" style="color: #ef4444;"></i> CV_LeNguyen_BusinessAnalyst.pdf [Tải về]
+                      </a>
+                    </span>
+                  </div>
+                  <div class="table-row">
+                    <span class="row-key">LinkedIn:</span>
+                    <span class="row-val">
+                      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="link-highlight">
+                        linkedin.com/in/lenguyen-ba <i class="fa-brands fa-linkedin-in"></i>
+                      </a>
+                    </span>
+                  </div>
+                  <div class="table-row">
+                    <span class="row-key">Status:</span>
+                    <span class="row-val status-green">
+                      <span class="pulse-dot-green"></span>
+                      <span>Available for Internship &amp; Collaboration</span>
+                    </span>
+                  </div>
+                </div>
+
+                <!-- Simulated Terminal Box -->
+                <div class="terminal-quote-box">
+                  <span class="corner-bracket top-left"></span>
+                  <span class="corner-bracket top-right"></span>
+                  <span class="corner-bracket bottom-left"></span>
+                  <span class="corner-bracket bottom-right"></span>
+                  <div class="terminal-text-green">// BA MISSION STATEMENT</div>
+                  <div class="terminal-code-body">
+                    // "Translating complex business needs into clear, actionable technical blueprints.<br />
+                    // Bridging stakeholders, designers, and developers for maximum business impact."
+                  </div>
+                </div>
+              </div>
+
+              <!-- TAB 2: EDUCATION.MD -->
+              <div class="file-view-tab" id="view-education">
+                <div class="file-active-badge">// ACTIVE FILE: EDUCATION.MD</div>
+                <h2 class="view-title">Học vấn &amp; Nền tảng Kỹ thuật.</h2>
+                <div class="edu-card-item">
+                  <div class="edu-time">Khóa 19: 08/2023 — 05/2027 • MSSV: CE191110</div>
+                  <h3 class="edu-school-name">ĐẠI HỌC FPT CẦN THƠ</h3>
+                  <div class="edu-spec">Chuyên ngành: <strong>Kỹ thuật phần mềm (Software Engineering)</strong></div>
+                  <p class="edu-desc">
+                    <strong>Định hướng nghề nghiệp:</strong> Kết hợp nền tảng kỹ thuật phần mềm (Java Web MVC, SQL Server, Kiểm thử phần mềm) để phát triển chuyên sâu sang <strong>Business Analyst (BA)</strong> — phân tích nghiệp vụ, mô hình hóa quy trình (BPMN), viết đặc tả (BRD/SRS) và thiết kế Wireframe.
+                  </p>
+                  <div class="edu-pillars">
+                    <div class="pillar">
+                      <i class="fa-solid fa-check"></i>
+                      <span><strong>Phân tích &amp; Quy trình:</strong> Nắm vững SDLC, Agile/Scrum, Use Case, BPMN và viết tài liệu đặc tả SRS/User Stories.</span>
+                    </div>
+                    <div class="pillar">
+                      <i class="fa-solid fa-check"></i>
+                      <span><strong>Cơ sở dữ liệu &amp; Hệ thống:</strong> Thiết kế ERD, truy vấn SQL Server (JOIN, Subqueries) và kiến trúc Java Servlet/JSP (Jakarta EE, MVC).</span>
+                    </div>
+                    <div class="pillar">
+                      <i class="fa-solid fa-check"></i>
+                      <span><strong>Kiểm thử &amp; Trực quan hóa:</strong> Tư duy QA/QC (Test Case, UAT) kết hợp phác thảo Wireframe/Prototype trên Figma.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- TAB 3: EXPERIENCE.MD -->
+              <div class="file-view-tab" id="view-experience">
+                <div class="file-active-badge">// ACTIVE FILE: EXPERIENCE.MD</div>
+                <h2 class="view-title">Kinh nghiệm Thực tập Doanh nghiệp.</h2>
+                <div class="edu-card-item">
+                  <div class="edu-time">OJT 2026 • Cần Thơ, Việt Nam</div>
+                  <h3 class="edu-school-name">CÔNG TY CỔ PHẦN CÔNG NGHỆ TEKNIX – CN CẦN THƠ</h3>
+                  <div class="edu-spec">Vị trí thực tập: <strong>Tester Intern (On-the-Job Training)</strong></div>
+                  <p class="edu-desc">
+                    Tham gia quy trình phát triển và kiểm thử phần mềm thực tế tại doanh nghiệp, tạo nền tảng vững chắc cho tư duy <strong>Business Analyst</strong> trong việc đọc hiểu đặc tả và đảm bảo chất lượng sản phẩm (UAT).
+                  </p>
+                  <div class="edu-pillars">
+                    <div class="pillar">
+                      <i class="fa-solid fa-check"></i>
+                      <span>Đọc hiểu tài liệu yêu cầu (SRS/BRD), phân tích luồng nghiệp vụ và thiết kế bộ Test Case bao phủ các kịch bản người dùng.</span>
+                    </div>
+                    <div class="pillar">
+                      <i class="fa-solid fa-check"></i>
+                      <span>Thực hiện kiểm thử chức năng, kiểm thử chấp nhận người dùng (UAT) và đối chiếu kết quả thực tế với Acceptance Criteria.</span>
+                    </div>
+                    <div class="pillar">
+                      <i class="fa-solid fa-check"></i>
+                      <span>Ghi nhận, mô tả chi tiết lỗi (Bug Report) và phối hợp trực tiếp cùng Developers/BA để xác nhận tái kiểm thử và nghiệm thu tính năng.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- TAB 3: LOCATION.MD -->
+              <div class="file-view-tab" id="view-location">
+                <div class="file-active-badge">// ACTIVE FILE: LOCATION.MD</div>
+                <div class="location-view-grid">
+                  <div class="loc-details">
+                    <h2 class="view-title">Geographic Node.</h2>
+                    <p class="view-paragraph">Operating locally from Cần Thơ City with full availability for On-site &amp; Remote / Hybrid collaboration.</p>
+                    
+                    <div class="bio-meta-table">
+                      <div class="table-row">
+                        <span class="row-key">Base:</span>
+                        <span class="row-val">Cần Thơ City, Vietnam</span>
+                      </div>
+                      <div class="table-row">
+                        <span class="row-key">Timezone:</span>
+                        <span class="row-val">UTC+7 (Indochina Time)</span>
+                      </div>
+                      <div class="table-row">
+                        <span class="row-key">Mobility:</span>
+                        <span class="row-val">Cần Thơ, TP.HCM &amp; Remote Toàn quốc</span>
+                      </div>
+                      <div class="table-row">
+                        <span class="row-key">Status:</span>
+                        <span class="row-val status-green">
+                          <span class="pulse-dot-green"></span>
+                          <span>Active Node • Ready for Internship</span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Pixel Map Box -->
+                  <div class="loc-map-box">
+                    <span class="corner-bracket top-left"></span>
+                    <span class="corner-bracket top-right"></span>
+                    <span class="corner-bracket bottom-left"></span>
+                    <span class="corner-bracket bottom-right"></span>
+                    <div class="pixel-map-graphic">
+                      <div class="map-radar-pulse"></div>
+                      <div class="node-pin">📍 Cần Thơ, VN</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION: 4 BA CORE CAPABILITIES -->
+    <section id="services" class="services-section-wrapper reveal-on-scroll">
+      <div class="section-container">
+        <div class="section-top-label">BA CAPABILITIES &amp; VALUE</div>
+        <h2 class="section-big-title">WHAT I BRING TO THE TABLE</h2>
+
+        <div class="services-4-grid">
+          
+          <!-- Card 01: White Card -->
+          <div class="service-box card-style-white tilt-card">
+            <span class="corner-bracket top-left"></span>
+            <span class="corner-bracket top-right"></span>
+            <span class="corner-bracket bottom-left"></span>
+            <span class="corner-bracket bottom-right"></span>
+            
+            <div class="service-box-header">
+              <span class="service-cat-tag">REQUIREMENTS &amp; SPECS</span>
+              <span class="service-num">01</span>
+            </div>
+            <h3 class="service-heading">Requirement Elicitation &amp; Analysis</h3>
+            <p class="service-body-text">
+              Khảo sát nhu cầu của các bên liên quan (stakeholders), phân tích yêu cầu chức năng &amp; phi chức năng, viết User Stories kèm tiêu chí nghiệm thu (Acceptance Criteria) và biên soạn tài liệu BRD/SRS rõ ràng, mạch lạc.
+            </p>
+            <div class="service-link-hint">[BRD • SRS • User Stories • Acceptance Criteria]</div>
+          </div>
+
+          <!-- Card 02: Black Card -->
+          <div class="service-box card-style-black tilt-card">
+            <span class="corner-bracket top-left"></span>
+            <span class="corner-bracket top-right"></span>
+            <span class="corner-bracket bottom-left"></span>
+            <span class="corner-bracket bottom-right"></span>
+            
+            <div class="service-box-header">
+              <span class="service-cat-tag">BUSINESS PROCESS MODELING</span>
+              <span class="service-num">02</span>
+            </div>
+            <h3 class="service-heading">Process Modeling (BPMN &amp; UML)</h3>
+            <p class="service-body-text">
+              Vẽ sơ đồ quy trình nghiệp vụ hiện tại (As-Is) và quy trình mục tiêu (To-Be) bằng BPMN, Activity Diagram, Use Case Diagram và Data Flow Diagram (DFD) giúp các bên dễ dàng thống nhất quy trình vận hành.
+            </p>
+            <div class="service-link-hint">[BPMN 2.0 • Use Case • Flowcharts • Swimlane]</div>
+          </div>
+
+          <!-- Card 03: Black Card -->
+          <div class="service-box card-style-black tilt-card">
+            <span class="corner-bracket top-left"></span>
+            <span class="corner-bracket top-right"></span>
+            <span class="corner-bracket bottom-left"></span>
+            <span class="corner-bracket bottom-right"></span>
+            
+            <div class="service-box-header">
+              <span class="service-cat-tag">SOLUTION VISUALIZATION</span>
+              <span class="service-num">03</span>
+            </div>
+            <h3 class="service-heading">Wireframing &amp; Solution Prototyping</h3>
+            <p class="service-body-text">
+              Trực quan hóa yêu cầu giải pháp thành Wireframe (Lo-Fi) và Prototype tương tác (Hi-Fi) trên Figma. Giúp khách hàng sớm hình dung sản phẩm thực tế và giảm thiểu 80% rủi ro làm sai lệch yêu cầu khi bàn giao cho Dev.
+            </p>
+            <div class="service-link-hint">[Figma • User Journey • Customer Flow • Lo-Fi/Hi-Fi]</div>
+          </div>
+
+          <!-- Card 04: White Card -->
+          <div class="service-box card-style-white tilt-card">
+            <span class="corner-bracket top-left"></span>
+            <span class="corner-bracket top-right"></span>
+            <span class="corner-bracket bottom-left"></span>
+            <span class="corner-bracket bottom-right"></span>
+            
+            <div class="service-box-header">
+              <span class="service-cat-tag">DATA QUERY &amp; UAT TESTING</span>
+              <span class="service-num">04</span>
+            </div>
+            <h3 class="service-heading">Data Query &amp; UAT Coordination</h3>
+            <p class="service-body-text">
+              Truy vấn và phân tích dữ liệu qua SQL để hiểu sâu bài toán nghiệp vụ; xây dựng kịch bản kiểm thử chấp nhận người dùng (UAT Test Cases), phối hợp cùng QA/QC để nghiệm thu chất lượng tính năng trước khi đưa vào sản xuất.
+            </p>
+            <div class="service-link-hint">[SQL Queries • UAT Cases • Quality Verification • JIRA]</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION: 3 BA CASE STUDIES -->
+    <section id="projects" class="projects-section-wrapper reveal-on-scroll">
+      <div class="section-container">
+        <div class="projects-header-flex">
+          <div>
+            <div class="section-top-label">PRACTICAL CASE STUDIES</div>
+            <h2 class="section-big-title">Selected Case Studies</h2>
+          </div>
+          <a href="https://github.com/nguyenlece191110-pixel" target="_blank" rel="noopener noreferrer" class="view-all-link">
+            <span>View All Repositories</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="projects-3-grid">
+          
+          <!-- Project 1: Tech Hub E-Commerce -->
+          <article class="project-card-item tilt-card">
+            <span class="corner-bracket top-left"></span>
+            <span class="corner-bracket top-right"></span>
+            <span class="corner-bracket bottom-left"></span>
+            <span class="corner-bracket bottom-right"></span>
+            
+            <div class="project-img-container">
+              <img src="images/techhub.jpg" alt="Tech Hub E-Commerce Platform" class="project-cover-img" />
+            </div>
+            <div class="project-text-box">
+              <div class="p-role-badge"><i class="fa-solid fa-briefcase"></i> Vai trò: System Analyst &amp; Full-Stack Dev</div>
+              <h3 class="p-title">TechHub — B2C E-Commerce Platform</h3>
+              <p class="p-sub">
+                Phân tích nghiệp vụ &amp; xây dựng hệ thống thương mại điện tử (Java Jakarta EE, MVC, SQL Server): Giỏ hàng, Đặt &amp; Hủy đơn (OrderCancel), Thanh toán chuyển khoản QR, Chatbot hỗ trợ và Admin quản trị đơn hàng/sản phẩm.
+              </p>
+              <div class="p-tags">
+                <span>SQL Server ERD</span>
+                <span>BPMN &amp; SRS</span>
+                <span>Java Servlet/JSP</span>
+                <span>QR Checkout</span>
+              </div>
+              <div class="p-links">
+                <a href="https://github.com/nguyenlece191110-pixel" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-github"></i> Repository &amp; Source
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Ping Pong Game -->
+          <article class="project-card-item tilt-card">
+            <span class="corner-bracket top-left"></span>
+            <span class="corner-bracket top-right"></span>
+            <span class="corner-bracket bottom-left"></span>
+            <span class="corner-bracket bottom-right"></span>
+            
+            <div class="project-img-container">
+              <img src="images/pingpong.png" alt="Ping Pong Game" class="project-cover-img" />
+            </div>
+            <div class="project-text-box">
+              <div class="p-role-badge"><i class="fa-solid fa-briefcase"></i> Vai trò: Logic Analyst &amp; Java Engineer</div>
+              <h3 class="p-title">Ping Pong Arcade System (Java Swing)</h3>
+              <p class="p-sub">
+                Phân tích luồng trạng thái trò chơi và thiết kế kiến trúc OOP (Ball, Paddle, Score, GamePanel). Tối ưu hóa logic phát hiện va chạm, điều khiển 2 người chơi song song và cơ chế cập nhật điểm số thời gian thực.
+              </p>
+              <div class="p-tags">
+                <span>State Flow</span>
+                <span>OOP Modeling</span>
+                <span>Java Swing</span>
+                <span>Collision Logic</span>
+              </div>
+              <div class="p-links">
+                <a href="https://github.com/nguyenlece191110-pixel/Game.git" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-github"></i> Repository &amp; Source
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Dashboard Điều Hành Lớp 10B - THPT Lai Vung 1 -->
+          <article class="project-card-item tilt-card">
+            <span class="corner-bracket top-left"></span>
+            <span class="corner-bracket top-right"></span>
+            <span class="corner-bracket bottom-left"></span>
+            <span class="corner-bracket bottom-right"></span>
+            
+            <div class="project-img-container">
+              <img src="dashboard-lop-10b/images/thong_tin_lop_10b.jpg" alt="Dashboard Điều Hành Lớp 10B - THPT Lai Vung 1" class="project-cover-img" />
+            </div>
+            <div class="project-text-box">
+              <div class="p-role-badge"><i class="fa-solid fa-briefcase"></i> Vai trò: Business Analyst &amp; Product Builder</div>
+              <h3 class="p-title">Dashboard Quản Trị Lớp 10B — THPT Lai Vung 1</h3>
+              <p class="p-sub">
+                Số hóa toàn diện 5 kế hoạch nhà trường (431, 455, 460, 570, 587) &amp; Thời khóa biểu Tuần 12 thành hệ thống Dashboard điều hành 45 học sinh: quản lý thu phí/BHYT, 18 ca thi, thi đua 20/11, báo cáo Zalo và sao lưu dữ liệu.
+              </p>
+              <div class="p-tags">
+                <span>Requirement Digitization</span>
+                <span>Dashboard UI/UX</span>
+                <span>Data Modeling</span>
+                <span>HTML/CSS/JS</span>
+              </div>
+              <div class="p-links" style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                <a href="dashboard-lop-10b/index.html" target="_blank" rel="noopener noreferrer" style="color: var(--accent-blue); font-weight: 700;">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                </a>
+                <a href="https://github.com/nguyenlece191110-pixel" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-github"></i> Repository &amp; Source
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION: BA TOOLBOX -->
+    <section id="skills" class="skills-section-wrapper reveal-on-scroll">
+      <div class="section-container">
+        <div class="section-top-label">BUSINESS ANALYST TOOLBOX</div>
+        <h2 class="section-big-title">Tools &amp; Methodologies</h2>
+
+        <div class="tech-logos-grid">
+          
+          <div class="tech-chip">
+            <i class="fa-brands fa-figma" style="color: #f24e1e;"></i>
+            <span>Figma</span>
+            <small style="color: var(--text-dim); font-size: 0.7rem;">Wireframe &amp; Prototype</small>
+          </div>
+
+          <div class="tech-chip">
+            <i class="fa-solid fa-diagram-project" style="color: #0284c7;"></i>
+            <span>BPMN 2.0</span>
+            <small style="color: var(--text-dim); font-size: 0.7rem;">Draw.io / Lucidchart</small>
+          </div>
+
+          <div class="tech-chip">
+            <i class="fa-solid fa-file-invoice" style="color: #10b981;"></i>
+            <span>BRD &amp; SRS</span>
+            <small style="color: var(--text-dim); font-size: 0.7rem;">Tài liệu đặc tả yêu cầu</small>
+          </div>
+
+          <div class="tech-chip">
+            <i class="fa-solid fa-database" style="color: #dc2626;"></i>
+            <span>SQL Server</span>
+            <small style="color: var(--text-dim); font-size: 0.7rem;">Data Query &amp; Analysis</small>
+          </div>
+
+          <div class="tech-chip">
+            <i class="fa-brands fa-jira" style="color: #0052cc;"></i>
+            <span>Jira &amp; Trello</span>
+            <small style="color: var(--text-dim); font-size: 0.7rem;">Agile / Scrum Backlog</small>
+          </div>
+
+          <div class="tech-chip">
+            <i class="fa-solid fa-list-check" style="color: #9333ea;"></i>
+            <span>User Stories</span>
+            <small style="color: var(--text-dim); font-size: 0.7rem;">Acceptance Criteria</small>
+          </div>
+
+          <div class="tech-chip">
+            <i class="fa-solid fa-vial-circle-check" style="color: #059669;"></i>
+            <span>UAT Testing</span>
+            <small style="color: var(--text-dim); font-size: 0.7rem;">User Acceptance Testing</small>
+          </div>
+
+          <div class="tech-chip">
+            <i class="fa-solid fa-file-excel" style="color: #16a34a;"></i>
+            <span>Excel / Sheets</span>
+            <small style="color: var(--text-dim); font-size: 0.7rem;">Phân tích số liệu &amp; Báo cáo</small>
+          </div>
+
+          <div class="tech-chip">
+            <i class="fa-brands fa-git-alt" style="color: #f97316;"></i>
+            <span>Git / GitHub</span>
+            <small style="color: var(--text-dim); font-size: 0.7rem;">Kỹ thuật phần mềm FPTU</small>
+          </div>
+
+          <div class="tech-chip">
+            <i class="fa-solid fa-comments" style="color: #38bdf8;"></i>
+            <span>Stakeholder Mgmt</span>
+            <small style="color: var(--text-dim); font-size: 0.7rem;">Đàm phán &amp; Làm việc nhóm</small>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER: LET'S BUILD TOGETHER -->
+    <footer class="site-footer">
+      <div class="section-container footer-flex">
+        <div class="footer-left">
+          <h2 class="footer-cta-title">Let's Connect &amp; Collaborate</h2>
+          <p class="footer-cta-desc">
+            Tôi luôn sẵn sàng đón nhận cơ hội thực tập <strong>Business Analyst (BA) Intern</strong> và hợp tác xây dựng sản phẩm số. 
+            Đừng ngần ngại liên hệ qua Gmail hoặc số điện thoại bên dưới.
+          </p>
+          <div class="footer-contacts">
+            <a href="CV_LeNguyen_BusinessAnalyst.pdf" download="CV_LeNguyen_BusinessAnalyst.pdf" class="link-btn-line" title="Tải CV PDF">
+              <i class="fa-solid fa-file-arrow-down" style="color: #38bdf8;"></i>
+              <span>Tải CV (PDF)</span>
+            </a>
+            <a href="javascript:void(0)" class="trigger-email-modal link-btn-line">
+              <i class="fa-regular fa-envelope" style="color: #ea4335;"></i>
+              <span>nguyenle.ce191110@gmail.com</span>
+            </a>
+            <a href="javascript:void(0)" class="trigger-phone-modal link-btn-line">
+              <i class="fa-solid fa-phone" style="color: #10b981;"></i>
+              <span>0941-041-650 (Gọi / Zalo)</span>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="link-btn-line" title="LinkedIn">
+              <i class="fa-brands fa-linkedin-in" style="color: #0a66c2;"></i>
+              <span>LinkedIn Profile</span>
+            </a>
+            <span><i class="fa-solid fa-location-dot"></i> Ninh Kiều, Cần Thơ</span>
+          </div>
+        </div>
+
+        <div class="footer-right">
+          <div class="footer-logo">
+            <span class="logo-bracket">&lt;</span><span class="logo-bold">LN</span><span class="logo-slash">/</span><span class="logo-gray">BA</span><span class="logo-bracket">&gt;</span>
+          </div>
+          <div class="footer-copy">© 2026 Lê Nguyên. All rights reserved. Business Analyst Portfolio.</div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- ========================================================================
+       INTERACTIVE GMAIL TRANSMISSION MODAL
+       ======================================================================== -->
+  <div class="modal-overlay" id="email-modal">
+    <div class="modal-box cad-box">
+      <span class="corner-bracket top-left"></span>
+      <span class="corner-bracket top-right"></span>
+      <span class="corner-bracket bottom-left"></span>
+      <span class="corner-bracket bottom-right"></span>
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <div class="mac-traffic-dots">
+          <span class="m-dot red modal-close-btn"></span>
+          <span class="m-dot yellow"></span>
+          <span class="m-dot green"></span>
+        </div>
+        <div class="modal-title">GMAIL_TRANSMISSION.EXE</div>
+        <button type="button" class="modal-close-icon modal-close-btn"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="modal-body">
+        <div class="modal-badge-tag">// DIRECT EMAIL ADDRESS (FROM CV)</div>
+        <div class="email-display-card">
+          <i class="fa-solid fa-envelope-open-text mail-icon-lead"></i>
+          <div class="email-text-wrap">
+            <span class="email-address" id="copy-email-target">nguyenle.ce191110@gmail.com</span>
+            <span class="email-owner">Lê Nguyên • Ứng tuyển Business Analyst Intern</span>
+          </div>
+        </div>
+
+        <div class="modal-action-buttons">
+          <!-- 1. Mở thẳng Gmail trên Web -->
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nguyenle.ce191110@gmail.com&su=[Tuyển dụng] Trao đổi cơ hội Business Analyst Intern&body=Chào bạn Lê Nguyên,%0D%0A%0D%0AChúng tôi đã xem qua hồ sơ và Portfolio của bạn..." target="_blank" rel="noopener noreferrer" class="btn-modal-action btn-gmail-web">
+            <i class="fa-brands fa-google"></i>
+            <span>Mở Trực Tiếp Trên Web Gmail</span>
+          </a>
+
+          <!-- 2. Mở ứng dụng Mail mặc định của máy -->
+          <a href="mailto:nguyenle.ce191110@gmail.com?subject=[Tuyển dụng] Trao đổi cơ hội Business Analyst Intern" class="btn-modal-action btn-mailto-app">
+            <i class="fa-regular fa-paper-plane"></i>
+            <span>Gửi Qua Ứng Dụng Mail Mặc Định</span>
+          </a>
+
+          <!-- 3. Nút Copy Email -->
+          <button type="button" class="btn-modal-action btn-copy" id="btn-copy-email">
+            <i class="fa-regular fa-copy"></i>
+            <span id="copy-email-label">Sao Chép Địa Chỉ Email</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       INTERACTIVE PHONE CONTACT MODAL
+       ======================================================================== -->
+  <div class="modal-overlay" id="phone-modal">
+    <div class="modal-box cad-box">
+      <span class="corner-bracket top-left"></span>
+      <span class="corner-bracket top-right"></span>
+      <span class="corner-bracket bottom-left"></span>
+      <span class="corner-bracket bottom-right"></span>
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <div class="mac-traffic-dots">
+          <span class="m-dot red modal-close-btn"></span>
+          <span class="m-dot yellow"></span>
+          <span class="m-dot green"></span>
+        </div>
+        <div class="modal-title">TELEPHONE_TERMINAL.EXE</div>
+        <button type="button" class="modal-close-icon modal-close-btn"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="modal-body">
+        <div class="modal-badge-tag">// DIRECT PHONE NUMBER (FROM CV)</div>
+        <div class="phone-display-card">
+          <i class="fa-solid fa-phone-volume phone-icon-lead"></i>
+          <div class="phone-text-wrap">
+            <span class="phone-number" id="copy-phone-target">0941-041-650</span>
+            <span class="phone-owner">Lê Nguyên • Cần Thơ City, Việt Nam</span>
+          </div>
+        </div>
+
+        <div class="modal-action-buttons">
+          <!-- 1. Gọi điện thoại trực tiếp -->
+          <a href="tel:0941041650" class="btn-modal-action btn-call-now">
+            <i class="fa-solid fa-phone"></i>
+            <span>Gọi Đến 0941-041-650 Ngay</span>
+          </a>
+
+          <!-- 2. Chat Zalo trực tiếp -->
+          <a href="https://zalo.me/0941041650" target="_blank" rel="noopener noreferrer" class="btn-modal-action btn-zalo">
+            <i class="fa-solid fa-comment-dots"></i>
+            <span>Nhắn Tin Trực Tiếp Qua Zalo</span>
+          </a>
+
+          <!-- 3. Nút Copy Số Điện Thoại -->
+          <button type="button" class="btn-modal-action btn-copy" id="btn-copy-phone">
+            <i class="fa-regular fa-copy"></i>
+            <span id="copy-phone-label">Sao Chép Số Điện Thoại</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       BACK TO TOP BUTTON (CAD BLUEPRINT STYLE)
+       ======================================================================== -->
+  <button type="button" id="back-to-top" class="back-to-top-btn" aria-label="Cuộn lên đầu trang" title="Cuộn lên đầu trang">
+    <span class="cad-handle tl"></span>
+    <span class="cad-handle tr"></span>
+    <span class="cad-handle bl"></span>
+    <span class="cad-handle br"></span>
+    <span class="btt-bracket">[</span>
+    <i class="fa-solid fa-arrow-up"></i>
+    <span class="btt-text">TOP</span>
+    <span class="btt-bracket">]</span>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>

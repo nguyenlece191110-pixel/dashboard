@@ -1,0 +1,17 @@
+# Heavy Java / NetBeans / Eclipse Projects
+GamePingPong/
+TechHub/
+*.sql
+*.log
+
+# Temp or Draft files
+Trang Bìa Báo Cáo Thực Tập - Lê Nguyên.pdf
+cv_print.html
+images/cv_preview.png
+images/extracted_obj_*.jpg
+images/img_1.jpg
+images/qr_code.bmp
+
+# OS files
+.DS_Store
+Thumbs.db

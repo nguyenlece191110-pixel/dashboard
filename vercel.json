@@ -1,0 +1,19 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/CV_LeNguyen_BusinessAnalyst.pdf",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/pdf"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "inline; filename=\"CV_LeNguyen_BusinessAnalyst.pdf\""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+================================================================================
+HỆ THỐNG DASHBOARD QUẢN TRỊ & ĐIỀU HÀNH LỚP 10B - TRƯỜNG THPT LAI VUNG 1
+NĂM HỌC 2026 - 2027 (TÍCH HỢP ĐẦY ĐỦ TKB TUẦN 12 & ÁP PHÍCH NHẬN DIỆN LỚP)
+================================================================================
+
+Kính gửi Thầy/Cô giáo viên chủ nhiệm và người sử dụng!
+
+1. CÁCH MỞ VÀ SỬ DỤNG:
+- Nhấp đúp chuột vào tệp "index.html" để mở Dashboard trên bất kỳ trình duyệt nào.
+- Hoàn toàn KHÔNG cần cài đặt phần mềm phụ trợ, chạy offline hoặc online mượt mà.
+
+2. THỜI KHÓA BIỂU MỚI (TUẦN 12) & ÁP PHÍCH LỚP 10B:
+- Thời khóa biểu: Khối 10 học Buổi Chiều từ 12:35 đến 17:00 (truy bài 12:20).
+  Riêng Thứ 5 học Thể Dục (GDTC) Buổi Sáng lúc 08:05 - 09:55 tại Sân Đa Năng.
+- Nút "Ảnh TKB Gốc" cho phép xem lại ảnh TKB của trường bất kỳ lúc nào.
+- Áp phích nhận diện Lớp 10B: Nhúng ngay đầu trang với SĐT/Zalo Cô Lan (0938.600.353),
+  Sĩ số 45 học sinh, Cây Slogan 4 giá trị (Tự tin - Bản lĩnh - Bứt phá - Thành công).
+  Hỗ trợ phóng to toàn màn hình và tải ảnh chất lượng cao.
+
+3. DANH SÁCH LỚP & BAN CÁN SỰ:
+- Đã nạp sẵn danh sách chính thức 45 học sinh Lớp 10B trường THPT Lai Vung 1 (phân 4 tổ).
+- Ban cán sự: Để trống 100% để Thầy/Cô tự bầu chọn và điền vào sau tiết sinh hoạt lớp.
+- Thầy/Cô có thể bấm "Xuất Excel" để lấy file danh sách lớp chuẩn UTF-8 hoặc "In Danh Sách" ra khổ A4.
+
+4. KẾ HOẠCH TOÀN NĂM CỦA TRƯỜNG THPT LAI VUNG 1:
+- Kế hoạch 460: Khám sức khỏe Lớp 10B lúc 10h30 Thứ Ba 22/09/2026.
+- Kế hoạch 455: Miễn 100% học phí theo NQ 217; BHYT 546.480đ/năm nộp trước 15/12/2026.
+- Kế hoạch 570: Thi đua chào mừng 20/11 (Hoa điểm 10 +8đ, nề nếp +2đ/-2đ, Cuộc thi Video, Văn nghệ Tuổi hồng).
+- Kế hoạch 587: 18 ca thi tập trung Khối 10 Buổi Chiều (Giữa kỳ 02-04/11 & Cuối kỳ 21-23/12/2026).
+
+5. SAO LƯU DỰ PHÒNG:
+- Bấm nút "Sao Lưu" để tải file .json lưu trữ trên máy tính hoặc gửi qua Zalo/Drive.
+- Bấm nút "Phục Hồi" khi muốn chuyển đổi dữ liệu sang máy tính khác.
+
+Chúc Thầy/Cô một năm học thành công rực rỡ và nhiều niềm vui!
+================================================================================
